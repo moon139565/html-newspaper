@@ -23,6 +23,22 @@
         text-align: center;
         margin-top: 20px;
       }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        margin-top: 20px;
+      }
+      .top_news h2 {
+        text-align: center;
+      }
+      .vedio_section h2 {
+        text-align: center;
+      }
+      .form_section h2 {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -50,5 +66,120 @@
         </strong>
       </nav>
     </header>
+    <main>
+      <section class="table_section">
+        <table width="100%">
+          <thead>
+            <tr>
+              <th><i class="fa-solid fa-list"></i> Category</th>
+              <th><i class="fa-solid fa-heading"></i> Headline</th>
+              <th><i class="fa-solid fa-calendar-days"></i> Date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Top News</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://en.prothomalo.com/international/middle-east/bo9urw6ls9"
+                >
+                  Israel pounds Beirut suburbs as Lebanon says 31 dead
+                  nationwide
+                </a>
+              </td>
+              <td>November 26, 2024</td>
+            </tr>
+
+            <tr>
+              <td>Business</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.thedailystar.net/business/news/labour-reforms-key-bangladeshs-economic-growth-us-delegation-3761946"
+                >
+                  Labour reforms key to Bangladesh's economic growth: US
+                  delegation
+                </a>
+              </td>
+              <td>November 26, 2024</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Sports</td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.thedailystar.net/sports/cricket/news/australia-digests-perth-mauling-3761961"
+                >
+                  Australia digests Perth mauling
+                </a>
+              </td>
+              <td>November 26, 2024</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section class="top_news">
+        <h2><i class="fa-solid fa-globe"></i> Top News</h2>
+        <div>
+          <img
+            src="https://images.prothomalo.com/prothomalo-english%2F2024-11-26%2Fyeprs23t%2F94d7faeb69979eb761b8f2102ff87c86.jpg?rect=0%2C0%2C4500%2C3000&auto=format%2Ccompress&fmt=webp&format=webp&w=640&dpr=1.0"
+            alt=""
+          />
+          <h3>
+            Israel pounds Beirut suburbs as Lebanon says 31 dead nationwide
+          </h3>
+          <p>
+            Israeli strikes pummelled south Beirut on Monday, Lebanese official
+            media said, and health authorities reported 31 people killed across
+            the war-hit country, most of them in the south. Israel’s military
+            said in a statement Monday afternoon it had hit “approximately 25
+            terror targets” belonging to Hezbollah across Lebanon, including in
+            Nabatiyeh, Baalbek, the Bekaa Valley and southern Beirut and the
+            city’s outskirts.
+          </p>
+        </div>
+      </section>
+      <section class="vedio_section">
+        <h2><i class="fa-solid fa-file-video"></i> Entertainment</h2>
+        <video
+          controls
+          autoplay
+          muted
+          width="70%"
+          height="600px"
+          src="https://www.w3schools.com/tags/movie.mp4"
+        ></video>
+      </section>
+      <section class="form_section">
+        <h2><i class="fa-solid fa-comment-dots"></i> Feedback Form</h2>
+        <form>
+          <label for="name"> <b> Name:</b></label> <br />
+          <input
+            type="text"
+            id="name"
+            name="Name"
+            placeholder="Enter your name"
+          />
+          <br />
+          <br />
+
+          <label for="email"> <b> Email: </b> </label> <br />
+          <input type="text" placeholder="Enter your email" /> <br />
+          <br />
+
+          <label for="coment"><b>Feedback:</b></label> <br />
+          <textarea name="coment" id="coment" rows="5px" cols="21px">
+ Enter your feedback </textarea
+          >
+          <br />
+          <br />
+
+          <input type="submit" value="submit" />
+        </form>
+      </section>
+    </main>
   </body>
 </html>
